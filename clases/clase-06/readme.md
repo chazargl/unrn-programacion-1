@@ -1,3 +1,9 @@
+## Práctica - Programación 1 sin Python
+
+REGLA: No utilizar Python para realizar estos ejercicios. El parcial será en papel y no habrá ayuda del intérprete.
+
+[Se sube el archivo .docx con los ejercicios resueltos](./assets/readme.md)
+
 ## Ejercicio 1
 Escribi un codigo que asigne 4 variables de los tipos int, float, string y bool. Imprimir cada uno con un texto que indique su tipo, ejemplo: “int: 4”, “float: 4.1”, etc.
 
