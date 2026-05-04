@@ -56,14 +56,17 @@ Abrir el interprete de Python y probar las siguientes operaciones:
 ![Ejercicio2.1](assets/Ejercicio2_1.png)
 
 2. Definir las variables `nombre` y `apellido` y mostrar el mensaje: `"Bienvenido [nombre] [apellido] al mundo Python"`.
+
+![Ejercicio2.2](assets/Ejercicio2_2.png)
+
 3. Crear un programa donde se defina una variable de cada uno de los siguientes tipos: `str`, `int` y `float`. Utilizar `type()` para imprimir, junto con su valor, el tipo de cada variable.
-4. Crear un programa donde se asigne un valor a una variable de tipo `int` y otra de tipo `float`, sumarlas y mostrar el resultado, indicando tambien el tipo de dato del resultado.
-5. Crear un programa que:
+5. Crear un programa donde se asigne un valor a una variable de tipo `int` y otra de tipo `float`, sumarlas y mostrar el resultado, indicando tambien el tipo de dato del resultado.
+6. Crear un programa que:
    1. Calcule cuantos meses viviste aproximadamente.
    2. Calcule tu edad dentro de 10 anios.
    3. Calcule el doble de tu altura.
    4. Imprima los resultados con mensajes descriptivos.
-6. Crear un programa que:
+7. Crear un programa que:
    1. Cree una variable `saludo` que diga: `"Hola <tu nombre>"`.
    2. Cree otra variable que repita el saludo tres veces.
    3. Cuente cuantas letras tiene tu nombre usando `len()`.
