@@ -13,17 +13,48 @@ Practicar el uso del interprete de Python, la creacion de variables y el uso de 
 Abrir el interprete de Python y probar las siguientes operaciones:
 
 1. Imprimir el mensaje `"Hola mundo"` utilizando `print()`.
+
+![Ejercicio1_1](assets/Ejercicio1_1.png)
+
 2. Imprimir el mensaje `"Hola [tu nombre]"`, reemplazando `[tu nombre]` por tu nombre real.
+
+![Ejercicio1_2](assets/Ejercicio1_2.png)
+
 3. Realizar tres operaciones matematicas distintas usando numeros enteros.
+
+![Ejercicio1_3](assets/Ejercicio1_3.png)
+
 4. Realizar dos operaciones con numeros decimales (`float`).
+
+![Ejercicio1_4](assets/Ejercicio1_4.png)
+
 5. Probar que sucede al ejecutar `1 + 2` y luego `1 + 2.0`.
+
+![Ejercicio1_5](assets/Ejercicio1_5.png)
+
 6. Escribir la expresion `10 // 3` y luego `10 % 3`. Explicar brevemente que representa cada resultado.
+
+![Ejercicio1_6](assets/Ejercicio1_6.png)
+
+   El simbolo // representa la division entera, por lo cual el resultado toma la parte entera de la operacion.<br>
+   El simbolo % representa el resto de la division solicitada.<br>
+
 7. En una sentencia `print`, probar que ocurre si omitis uno de los parentesis, o ambos. Explicar que ocurre.
+
+![Ejercicio1_7](assets/Ejercicio1_7.png)
+
+   Ocurre un error de sintaxis, al ser una funcion integrada (a partir de Python 3.0) requiere obligatoriamente el uso de parentesis de incio y cierre.
+
 8. Resolver el siguiente problema: cuantos segundos hay en 42 minutos con 42 segundos.
+
+![Ejercicio1_8](assets/Ejercicio1_8.png)
 
 ## Parte 2: Variables y tipos de datos
 
 1. Definir una variable `mensaje` con el valor `"Hola mundo!"` y mostrarla por pantalla.
+
+![Ejercicio2.1](assets/Ejercicio2_1.png)
+
 2. Definir las variables `nombre` y `apellido` y mostrar el mensaje: `"Bienvenido [nombre] [apellido] al mundo Python"`.
 3. Crear un programa donde se defina una variable de cada uno de los siguientes tipos: `str`, `int` y `float`. Utilizar `type()` para imprimir, junto con su valor, el tipo de cada variable.
 4. Crear un programa donde se asigne un valor a una variable de tipo `int` y otra de tipo `float`, sumarlas y mostrar el resultado, indicando tambien el tipo de dato del resultado.
