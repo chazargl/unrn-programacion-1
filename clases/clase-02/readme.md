@@ -36,14 +36,14 @@ Abrir el interprete de Python y probar las siguientes operaciones:
 
 ![Ejercicio1_6](assets/Ejercicio1_6.png)
 
-   El simbolo // representa la division entera, por lo cual el resultado toma la parte entera de la operacion.<br>
+>  El simbolo // representa la division entera, por lo cual el resultado toma la parte entera de la operacion.<br>
    El simbolo % representa el resto de la division solicitada.<br>
 
 7. En una sentencia `print`, probar que ocurre si omitis uno de los parentesis, o ambos. Explicar que ocurre.
 
 ![Ejercicio1_7](assets/Ejercicio1_7.png)
 
-   Ocurre un error de sintaxis, al ser una funcion integrada (a partir de Python 3.0) requiere obligatoriamente el uso de parentesis de incio y cierre.
+>  Ocurre un error de sintaxis, al ser una funcion integrada (a partir de Python 3.0) requiere obligatoriamente el uso de parentesis de incio y cierre.
 
 8. Resolver el siguiente problema: cuantos segundos hay en 42 minutos con 42 segundos.
 
