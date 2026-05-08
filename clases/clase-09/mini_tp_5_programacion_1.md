@@ -13,6 +13,66 @@ Responder en un archivo de texto plano, con tus palabras, en no más de 4 línea
 3. ¿Qué es un **diccionario** y cuándo conviene usar clave-valor?
 4. ¿Qué significa combinar estructuras de datos? Dar un ejemplo simple.
 
+> 1. Las **tuplas** en Python son estructuras de datos ordenadas e inmutables, no se pueden modificar tras su creación. Se definen mediante paréntesis () y comas, permitiendo almacenar colecciones de elementos heterogéneos (diferentes tipos de datos). Son más rápidas y eficientes en memoria que las listas, ideales para proteger datos constantes. En definitiva sería un lista inmutable. Aunque no se puede modificar una tupla, sí se puede asignar un nuevo valor a una variable que representa una tupla.
+
+> 2. Un **conjunto** es una colección en la que cada elemento debe ser único. Al meter una colección de valores con elementos duplicados en set(), Python identifica los elementos únicos de la colección y crea un conjunto con ellos. El resultado es una lista sin repeticiones. Es fácil confundir conjuntos y diccionarios porque ambos usan llaves. Cuando vea llaves, pero no pares clave-valor, lo más probable es que se trate de un conjunto. A diferencia de lo que ocurre con listas y diccionarios, los conjuntos no mantienen los elementos en un orden especifíco. El problema que resuelve mejor que una lista sería cuando necesitamos agrupar los elementos únicos y mostrarlos.
+
+> 3. Un **diccionario** de Python es una colección de pares clave-valor. Cada clave se conecta a un valor y podemos usar una clave para acceder al valor asociado a la misma. El valor de una clave puede ser un número, una cadena, una lista o incluso otro diccionario. En Python, un diccionario va entre llaves ({}), con una serie de pares clave-valor entre ellas. Cada clave se conecta con su valor mediante dos puntos y varios pares clave-valor se separan entre ellos por comas. Los diccionarios son estructuras dinámicas, mutables y ordenadas. Podemos añadirles nuevos pares clave-valor en cualquier momento. Para añadir un nuevo par, daríamos el nombre del diccionario seguido por la nueva clave entre corchetes junto con el nuevo valor. Se utilizan para agrupar información relacionada de forma organizada, como el perfil de un usuario, además de poder crear estructuras mas complejas al incluir otros diccionarios o listas dentro del mismo.
+
+> 4. Combinar estructuras de datos en Python (también conocido como anidamiento o nesting) significa colocar una estructura de datos (como una lista, diccionario, tupla o conjunto) dentro de otra para organizar información compleja y jerárquica. Esto permite modelar situaciones del mundo real que no se pueden representar con una sola lista o diccionario simple. <br>
+
+== Ejemplos: == 
+- **Lista de Diccionarios** (Estructura de Tabla o BD). Es la forma más común de representar datos estructurados, como filas en una base de datos.
+```
+ # Cada diccionario representa un estudiante
+estudiantes = [
+    {"nombre": "Ana", "nota": 90, "materias": ["Matemáticas", "Historia"]},
+    {"nombre": "Luis", "nota": 85, "materias": ["Física", "Arte"]},
+    {"nombre": "Carlos", "nota": 92, "materias": ["Química", "Literatura"]}
+]
+```
+ - **Diccionario con Listas** (Agrupamiento de Datos). Útil para agrupar elementos bajo una misma clave o categoría.
+```
+# Claves son equipos, valores son listas de jugadores
+equipos = {
+    "RedTeam": ["Juan", "María", "Pedro"],
+    "BlueTeam": ["Sofía", "Diego", "Elena"]
+}
+```
+ - **Listas Anidadas** (Matrices o Cuadrículas). Utilizado para representar matrices matemáticas, tableros de juego (como tres en raya) o mapas.
+```
+# Una matriz 3x3
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+``` 
+ - **Diccionario de Diccionarios** (Estructura Jerárquica). Ideal para representar objetos con múltiples atributos complejos.
+```
+usuarios = {
+    "usuario1": {
+        "nombre": "Ana",
+        "rol": "admin",
+        "detalles": {"id": 101, "email": "ana@mail.com"}
+    },
+    "usuario2": {
+        "nombre": "Bob",
+        "rol": "user",
+        "detalles": {"id": 102, "email": "bob@mail.com"}
+    }
+}
+```   
+ - **Tuplas dentro de Listas** (Registros Inmutables). Útil para listas de datos que no deben cambiar, garantizando integridad.
+```
+# Lista de coordenadas (x, y)
+rutas = [
+    (10, 20),
+    (30, 40),
+    (50, 60)
+]
+```
+
 ## Parte 2 - Ejercicios básicos
 
 ### Ejercicio 1 - Tuplas: datos fijos
