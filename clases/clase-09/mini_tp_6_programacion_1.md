@@ -33,6 +33,8 @@ Resolver:
 3. Calcular el promedio de temperatura por ciudad (usar diccionario).
 4. Indicar qué ciudad tuvo el mayor promedio.
 
+[Resolucion Ej.1](./scripts/mini_tp_6/ej1_mtp6.py)
+
 ### Ejercicio 2 - Inventario con alertas
 Modelar un inventario como diccionario donde la clave es el nombre del producto y el valor otro diccionario con `precio` y `stock`.
 
@@ -50,6 +52,8 @@ Resolver:
 1. Mostrar productos con stock bajo (`stock < 5`).
 2. Calcular valor total del inventario (`precio * stock` por producto).
 3. Generar un set con productos que requieren reposición urgente (`stock <= 2`).
+
+[Resolucion Ej.2](./scripts/mini_tp_6/ej1_mtp6.py)
 
 ### Ejercicio 3 - Catálogo de biblioteca
 Tenés una lista de libros, donde cada libro está representado por una tupla:
@@ -71,6 +75,8 @@ Resolver:
 3. Crear un diccionario donde la clave sea el género y el valor la cantidad de libros de ese género.
 4. Mostrar qué género tiene más libros.
 5. Mostrar los géneros sin repetirse.
+
+[Resolucion Ej.3](./scripts/mini_tp_6/ej1_mtp6.py)
 
 ## Parte 2 - Ejercicios integradores
 
