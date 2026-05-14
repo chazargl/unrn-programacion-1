@@ -53,7 +53,7 @@ Resolver:
 2. Calcular valor total del inventario (`precio * stock` por producto).
 3. Generar un set con productos que requieren reposición urgente (`stock <= 2`).
 
-[Resolucion Ej.2](./scripts/mini_tp_6/ej1_mtp6.py)
+[Resolucion Ej.2](./scripts/mini_tp_6/ej2_mtp6.py)
 
 ### Ejercicio 3 - Catálogo de biblioteca
 Tenés una lista de libros, donde cada libro está representado por una tupla:
@@ -76,7 +76,7 @@ Resolver:
 4. Mostrar qué género tiene más libros.
 5. Mostrar los géneros sin repetirse.
 
-[Resolucion Ej.3](./scripts/mini_tp_6/ej1_mtp6.py)
+[Resolucion Ej.3](./scripts/mini_tp_6/ej3_mtp6.py)
 
 ## Parte 2 - Ejercicios integradores
 
