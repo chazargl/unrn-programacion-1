@@ -12,13 +12,6 @@
 - [Mini TP 5 - Teoría y ejercicios básicos](mini_tp_5_programacion_1.md)
 - [Mini TP 6 - Ejercicios intermedios e integradores](mini_tp_6_programacion_1.md)
 
-## Codigo visto en clase
-
-- [Tuplas](./scripts/tuplas.py)
-- [Diccionarios](./scripts/diccionarios.py)
-- [Estructuras combinadas](./scripts/estructuras_combinadas.py)
-- [Ejercicio integrador](./scripts/ejercicio_integrador.py)
-
 ## Ejercicios de material PDF
 
 - [Tuplas](./scripts/ej1_tupla.py)
