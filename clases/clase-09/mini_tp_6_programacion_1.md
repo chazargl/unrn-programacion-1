@@ -110,6 +110,8 @@ Antes de empezar a escribir código, desarrollá una explicación completa de c�
 4. Mostrar la comisión con mejor promedio general.
 5. Generar un set con nombres de estudiantes en riesgo (`Recursa`).
 
+[Resolucion Ej.4](./scripts/mini_tp_6/ej4_mtp6.py)
+
 ### Ejercicio 5 - Buscador interactivo por género
 Escribir un programa que permita al usuario elegir un género de libro y, a partir de esa elección, mostrar los libros disponibles.
 
@@ -139,3 +141,5 @@ Antes de empezar a escribir código, desarrollá una explicación completa de c�
 3. Si el género existe, mostrar todos los títulos de ese género.
 4. Si el género no existe, mostrar un mensaje de aviso.
 5. Repetir el proceso hasta que el usuario escriba `salir`.
+
+[Resolucion Ej.5](./scripts/mini_tp_6/ej5_mtp6.py)
