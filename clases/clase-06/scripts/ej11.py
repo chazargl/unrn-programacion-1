@@ -30,8 +30,3 @@ for prod in seleccion_usuario :
         total = total + precio
         
 print(f'\nEl precio total de los productos en existencia es ${total}.')
-
-
-
-    
-    
