@@ -22,6 +22,8 @@ o por punto y coma?
 4. ¿Que problema pueden traer los espacios de mas al principio o al final de un 
 dato?
 
+[Se sube el archivo .txt con el ejercicio resuelto](./assets/ej1.txt)
+
 ## Ejercicio 2 - Leer codigo y explicarlo
 
 Este ejercicio no es para programar. Lean el codigo y escriban una explicación de
@@ -48,6 +50,8 @@ Para orientar la explicacion:
 2. ¿Por que se usa `strip` antes de `capitalize`?
 3. ¿Que dato se esta validando antes de convertirlo?
 4. ¿Que imprimiria el programa si en lugar de `8` viniera `ocho`?
+
+[Se sube el archivo .txt con el ejercicio resuelto](./assets/ej2.txt)
 
 ## Ejercicio 3 - Acomodar nombres
 
