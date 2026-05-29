@@ -1,0 +1,33 @@
+## Ejercicio 1 - Algunas preguntas
+
+Responder en un archivo de texto plano (.TXT), con sus palabras.
+
+1. ¿Porque es importante validar los datos que ingresa un usuario?
+2. ¿Que hace `strip` y en que se diferencia de `split`?
+3. ¿Para que puede servir `count` cuando una linea tiene datos separados por comas o por punto y coma?
+4. ¿Que problema pueden traer los espacios de mas al principio o al final de un dato?
+
+1. La validacion de datos es importante para evitar efectos no deseados en los programas,
+y restringir la forma y el modo de tratar los datos. En un programa que solicita datos
+a un usuario puede haber tanta diversidad de formatos de ingreso como cantidad de personas
+que utilizen el sistema. Incluso la misma persona puede ingresar diferentes formatos de datos
+para una misma solicitud, por ejemplo 'uno' para un numero, o '1', o '01', etc.
+Por esto mismo la validacion de datos nos permite unificar criterios y trabajar con datos
+limpios, al tiempo que evitamos posibles errores del programa.
+
+2. La funcion strip() permite eliminar caracteres vacios e invisibles en el principio y final
+de un texto, no en el medio. Se utiliza como forma de normalizar textos para procesarlos mas
+adelante en un programa. Se diferencia de split() en que el resultado de la funcion no cambia el
+tipo de estructura de datos, strip va a devolver siempre un string, y split va a devolver una lista
+de string. Ademas para el uso de split debemos indicar un argumento como delimitador, esto es el 
+caracter que se va a usar para separar el texto.
+
+3. La funcion count() permite poder contar los comas o punto y coma, para poder validar la
+cantidad de columnas de datos que fueron ingresadas.
+
+4. Los espacios vacios al principio o al final de un dato pueden ocasionar dificultades
+a la hora de manipular texto, por ejemplo si quisieramos ordenar alfabeticamente, una lista de 
+diccionarios que contiene en sus claves apellidos de alumnos y en los valores notas. La existencia
+de espacios vacios no validados dificultaria el resultado efectivo de esta tarea. Tambien puede
+complicar las comparaciones de datos al asumir que que no tienen espacios, y tambien en el
+formato luego de concatenar strings, sobretodo si los resultados se presentaran tabulados.

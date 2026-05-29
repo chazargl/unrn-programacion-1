@@ -1,0 +1,34 @@
+Ejercicio 1: Un sensor registra eventos con este formato. Se quiere contar cuántas
+veces aparece cada puerta.
+    Datos de entrada
+        "PUERTA_A;ABIERTA;18:03"
+        "PUERTA_B;CERRADA;18:04"
+        "PUERTA_A;ABIERTA;18:05"
+    
+    Para cumplir con la consigna deberiamos con los datos de entrada, realizar
+    un split(';') para que nos devuelva una lista con el contenido de cada palabra.
+    Declaramos una variable para cada puerta que actura de contador.
+    Luego de ello recorremos la lista con un for y en ese recorrido realizamos 
+    con un if la comparacion para cada puerta. Si el contenido de la palabra es
+    igual a PUERTA_A, sumamos uno al contador, con otro if si el contenido es igual
+    a PUERTA_B sumamos uno a la variable de la puerta B.
+    Al finalizar el recorrido en cada variable quedara registrada la cantidad de
+    apariciones de cada puerta.
+
+EJ2: Tenemos mediciones de voltaje:  
+Mostrar cuántas mediciones están fuera del rango 3.0 a 5.0.
+    Datos de entrada
+        [3.2, 3.4, 5.1, 2.9, 6.0, 3.3]
+    
+    Para cumplir con lo solicitado a partir de la lista definida, realizamos un
+    recorrido de la lista a traves de un iterador for elemento in lista. Dentro 
+    de ese recorrido usamos un if valor < 3.0 or valor > 5.0 vamos comparando 
+    ambas condiciones limites con un or. 
+
+EJ3: Un programa recibe comandos escritos por usuario: 
+" encender " 
+"APAGAR" 
+" estado " 
+"reiniciar" 
+Hay que normalizarlos y aceptar solo: encender, apagar, estado.
+    Datos de entrada: 

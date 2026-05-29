@@ -1,0 +1,39 @@
+## Ejercicio 2 - Leer codigo y explicarlo
+
+Este ejercicio no es para programar. Lean el codigo y escriban una explicación de que hace.
+
+```python
+linea = " mara ; programacion ; 8 "
+
+partes = linea.split(";")
+nombre = partes[0].strip().capitalize()
+materia = partes[1].strip().capitalize()
+nota_texto = partes[2].strip()
+
+if nota_texto.isnumeric():
+    nota = int(nota_texto)
+    print(f"{nombre} cursa {materia} y obtuvo {nota}")
+else:
+    print("La nota no es valida")
+```
+
+Para orientar la explicacion:
+
+1. ¿Que queda guardado en `partes`?
+2. ¿Por que se usa `strip` antes de `capitalize`?
+3. ¿Que dato se esta validando antes de convertirlo?
+4. ¿Que imprimiria el programa si en lugar de `8` viniera `ocho`?
+
+1. La variable partes guarda una lista de palabras obtenidas de la variable linea,
+separadas a partir del caracter ';' daria como resultado una lista con 3 indices.
+
+2. La funcion strip se utiliza antes que capitalize, ya que de lo contrario si hubieran
+espacios vacios o caracteres invisibles, la funcion capitalize estaria colocando mayuscula
+en ese carcater, y el resultado no seria el esperado.
+
+3. Se esta validando en un bloque de codigo dependiente del if si la nota fue ingresada
+como numero, si lo es, lo convierte a entero e informa por pantalla el nombre y nota.
+En caso contrario informa textualmente que el ingreso para nota no es valido.
+
+4. En caso de que la nota sea igual a 'ocho' (en letras), el programa informaria
+que 'La nota no es valida'.
