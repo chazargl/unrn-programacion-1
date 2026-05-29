@@ -70,6 +70,8 @@ Al final, mostrar la lista. Deberia quedar parecido a esto:
 ["Mara", "Tomas", "Lucia", "Marcos", "Sofia"]
 ```
 
+[Resolucion Ej.3](./scripts/ej3.py)
+
 ## Ejercicio 4 - Edad valida
 
 Pedir una edad por teclado. Antes de usarla como numero, revisar que el dato tenga
@@ -86,6 +88,8 @@ Edad registrada: 25
 
 Si no sirve, mostrar un mensaje de error claro. No alcanza con que el programa se
 rompa.
+
+[Resolucion Ej.4](./scripts/ej4.py)
 
 ## Ejercicio 5 - Codigo de materia
 
@@ -110,3 +114,5 @@ Codigo valido: PROG-101
 ```
 
 Si no es valido, mostrar un mensaje de error claro.
+
+[Resolucion Ej.5](./scripts/ej5.py)
