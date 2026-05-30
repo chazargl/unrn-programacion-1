@@ -3,7 +3,12 @@
 ## Ejercicio 0: Teoría Full
 
 1. Explica con tus palabras qué hace `if`, `elif` y `else`. ¿En qué caso usarías cada uno?
+
+> If, elif, else: Evaluan condiciones para que se ejecute un bloque de codigo. Si se cumplen las condiciones, la expresion se evalua como `True` (verdadera) y se ejecuta el bloque de codigo dentro de esa sentencia. De lo contrario si se evalua como `False` (falso), se ignora todo ese bloque de codigo. Usaria `if` para evaluar una condicion (o varias acompañado por `and` o `or`) particular; luego para todos los demas casos que no estan contemplados por el `if` utilizaria `else`. En una situacion `if` - `else` se ejecutara una de las dos acciones posibles, si cumple la condicion se ejecuta el bloque de codigo del `if`, para todos los otros casos que no la cumplan se ejecuta el bloque de codigo del `else`. Si necesitamos ejecutar diferentes bloques de codigo para diferentes situaciones usaria `if` independientes. Por otro lado para que se ejecute un solo bloque de codigo dependiendo de cada evaluacion usaria `if` - `elif` - `else`.
+
 2. Explica con tus palabras qué hace `while` y en qué se diferencia de un `for`. ¿En qué caso usarías cada uno?
+
+> `while` es una iteracion, esto significa que el bloque de codigo dependiente se seguira ejecutando mientras la condicion evaluada siga siendo `True`. En el caso del `for` tambien es una iteracion, pero para una candtidad predefinida de veces.
 
 ## Ejercicio 1
 
@@ -16,6 +21,7 @@ print(total)
 ```
 
 Pregunta: ¿Cumple si la consigna pide devolver? ¿Por qué?
+> En este caso no se cumple la consigna de devolver, ya que esta mostrando a traves de pantalla con la instruccion print el total. Para que se cumpla la consigna deberia utilizarse en la funcion la instruccion return.
 
 ## Ejercicio 2
 
@@ -27,6 +33,8 @@ print(numeros[3])
 ```
 
 Pregunta: ¿Qué ocurre si ejecutamos este codigo ? ¿Cambiarias algo?
+
+> Al ejecutar el codigo anterior el programa indicara un error fuera de rango. Para imprimir el ultimo numero de una lista es conveniente la utilizacion de el acceso por indice negativo `[-1]` Que se adapta a cualquier cantidad de elementos dentro de una lista.
 
 ## Ejercicio 3
 
