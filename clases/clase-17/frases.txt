@@ -1,0 +1,15 @@
+1 Computadora
+2 Python
+3 Lenguaje
+4 Examen
+5 Palabras
+6 Archivo
+7 Numeral
+8 Salida
+9 Programacion
+10 Alumno
+11 Universidad
+12 Funcion
+13 Excepcion
+14 Tecla
+15 Aula
